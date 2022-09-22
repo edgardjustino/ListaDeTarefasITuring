@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista De Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <img src="logo-2.png" alt="logo">
-    <h1>Lista da Tarefas</h1>
-    <p>Minha primeira lista de tarefas</p>
-    <input type="text" name="" id="">
-    <button>Adicionar</button>
-
-    <ul>
-        <li>
-            <span></span>
-        </li>
-
-    </ul>
+    <img class="logo" src="logo.png" alt="logo">
+    <main>
+        <h1>Lista da Tarefas</h1>
+        <p>Minha primeira lista de tarefas</p>
+        <input type="text" name="" id="">
+        <button class="botao" id="btn-adicionar">Adicionar</button>
+        <div class="caixa">
+            <ul id="lista">
+                <li>
+                    <span>Tarefa 1</span>
+                    <button>x</button>
+                </li>
+                <li>
+                    <span>Tarefa 2</span>
+                    <button>x</button>
+                </li>
+                <li>
+                    <span>Tarefa 3</span>
+                    <button>x</button>
+                </li>
+            </ul>
+            <button class="botao btn-azul">Limpar</button>
+        </div>
+    </main>
 </body>
+
 </html>
