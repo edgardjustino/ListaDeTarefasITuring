@@ -60,7 +60,7 @@ h1, p {
 #lista > li {
     background-color: #dbdbdb;
     width: 100%;
-    padding: 8px;
+    padding: 8px 0;
     margin-bottom: 20px;
     border-radius: 4px;
     text-align: left;
@@ -68,6 +68,11 @@ h1, p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
+}
+
+span{
+    padding-left: 20px;
 }
 
 .excluir {
@@ -78,6 +83,7 @@ h1, p {
     border-radius: 2px;
     border: none;
     cursor: pointer;
+    
 }
 
 #tarefa-nova {
